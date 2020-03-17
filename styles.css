@@ -1,0 +1,6 @@
+strong {
+  color: red;
+  font-size: 3rem;
+  border: black dotted 3px;
+  text-transform: uppercase;
+}
