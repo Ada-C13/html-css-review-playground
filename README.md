@@ -1,0 +1,1 @@
+This is going to be a huge and cool place for us to explor HTML and eventually CSS together! GET HYPE
