@@ -1,6 +1,26 @@
-strong {
+.bar {
   color: red;
-  font-size: 3rem;
-  border: black dotted 3px;
+}
+
+p {
+  color: blue;
+}
+
+.apartment-category {
+  border: cornflowerblue double 6px;
+  border-left: green solid 27px;
+}
+
+.cats-category {
   text-transform: uppercase;
+  transform: rotate(180deg);
+}
+
+.books-category li {
+  text-decoration: underline;
+  background-color: greenyellow;
+}
+
+ol li {
+  background-color: yellow;
 }
