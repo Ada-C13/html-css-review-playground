@@ -1,26 +1,25 @@
-.bar {
-  color: red;
+.content-container {
+  display: grid;
+  grid-template: 1fr 3fr 3fr / 1fr 1fr;
 }
 
-p {
-  color: blue;
+.content-container > * {
+  border: green solid 3px;
 }
 
-.apartment-category {
-  border: cornflowerblue double 6px;
-  border-left: green solid 27px;
+/* Dee's trick for seeing every element clearly! */
+/* * {
+  border: red solid 5px;
+} */
+
+h1 {
+  grid-column-end: span 2;
 }
 
 .cats-category {
-  text-transform: uppercase;
-  transform: rotate(180deg);
+  grid-row-start: 3;
 }
 
-.books-category li {
-  text-decoration: underline;
-  background-color: greenyellow;
-}
-
-ol li {
-  background-color: yellow;
+.plants-category {
+  grid-row-end: span 2;
 }
